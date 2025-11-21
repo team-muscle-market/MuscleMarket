@@ -129,6 +129,7 @@ public class ProductPageController {
         model.addAttribute("currentSportId", sportId); // 카테고리 필터 유지 (페이지네이션을 위해)
 
         // 찜꽁 페이지가 아님
+        // 왜 이부분이 안올라갈까
         model.addAttribute("isLikePage", false);
 
         // productlist.html 재사용
