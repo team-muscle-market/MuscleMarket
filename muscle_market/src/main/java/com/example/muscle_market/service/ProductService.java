@@ -244,6 +244,7 @@ public class ProductService {
                     .sportName(product.getSport().getName())
                     .views(product.getViews())
                     .likeCount(likeCount)
+                    .status(product.getStatus())
                     .thumbnailUrl(thumbnailUrl)
                     .createdAt(product.getCreatedAt())
                     .updatedAt(product.getUpdatedAt())
